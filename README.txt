@@ -3,6 +3,13 @@ Super Mario Strikers Archipelago
 Play cup matches and complete challenges to earn Archipelago items.
 Choose your goal, starting roster and cup access in your YAML settings.
 
+DOWNLOAD THE MOD
+Get the latest release here:
+https://github.com/ItsMrNew/SuperMarioStrikers-Archi/releases/latest
+
+Download the Super-Mario-Strikers-Archipelago-Mod ZIP under Assets.
+It includes the APWorld, Riivolution patch, example YAMLs and setup instructions.
+
 WHAT YOU NEED
 - Archipelago and Dolphin.
 - Your own USA copy of Super Mario Strikers (game ID G4QE01).
