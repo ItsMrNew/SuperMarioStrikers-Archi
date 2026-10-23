@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wiidisc version="1">
+    <id game="G4QE" developer="01" />
+    <options>
+        <section name="Super Mario Strikers Archipelago">
+            <option name="Completion mailbox and DeathLink goals" default="1">
+                <choice name="Enabled">
+                    <patch id="strikers_ap" />
+                </choice>
+            </option>
+        </section>
+    </options>
+    <patch id="strikers_ap">
+        <file disc="main.dol" external="/StrikersAP/main.dol" />
+    </patch>
+</wiidisc>

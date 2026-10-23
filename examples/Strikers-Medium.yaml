@@ -1,0 +1,17 @@
+name: Strikers{number}
+game: Super Mario Strikers
+description: Win the four regular cups with bronze milestones and themed checks.
+Super Mario Strikers:
+  goal: battle_trophies
+  required_battle_trophies: 4
+  included_cups: [Mushroom Cup, Flower Cup, Star Cup, Bowser Cup]
+  starting_cup_unlocks: regular
+  milestone_checks: true
+  milestone_max_tier: bronze
+  placement_checks: true
+  captain_win_checks: true
+  stadium_win_checks: true
+  combo_checks: themed
+  character_unlock_checks: false
+  enable_traps: false
+  death_link: false

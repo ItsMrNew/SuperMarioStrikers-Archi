@@ -1,0 +1,5 @@
+# Preserve installable binaries and the XML bytes covered by release-manifest.json.
+*.apworld binary
+*.dol binary
+*.zip binary
+/Riivolution/Riivolution/riivolution/StrikersAP.xml -text

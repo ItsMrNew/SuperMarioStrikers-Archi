@@ -1,0 +1,26 @@
+name: StrikersQuick{number}
+game: Super Mario Strikers
+description: Two cup championships with a small set of themed challenges and easier AP milestones.
+Super Mario Strikers:
+  goal: selected_cups
+  required_cups: [Mushroom Cup, Flower Cup]
+  included_cups: [Mushroom Cup, Flower Cup]
+  starting_cup_unlocks: regular
+  cup_match_checks: false
+  cup_win_bonus_count: 1
+  placement_checks: true
+  milestone_checks: true
+  milestone_max_tier: bronze
+  milestone_requirement_percent: 25
+  captain_win_checks: true
+  included_captains: [Mario, Peach, Yoshi]
+  stadium_win_checks: true
+  included_stadiums: [Pipeline Central, The Palace, Crater Field]
+  combo_checks: custom
+  custom_sidekick_combos: [Win with Mario + Toad, Win with Peach + Toad, Win with Yoshi + Birdo]
+  custom_stadium_combos: [Win with Peach at The Palace, Win with Yoshi at Crater Field]
+  cheat_unlocks: []
+  powerup_weight: 100
+  double_powerup_weight: 25
+  enable_traps: false
+  death_link: false

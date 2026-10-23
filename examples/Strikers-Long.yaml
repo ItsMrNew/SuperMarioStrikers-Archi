@@ -1,0 +1,16 @@
+name: Strikers{number}
+game: Super Mario Strikers
+description: Complete every enabled check across all eight cups and all combinations.
+Super Mario Strikers:
+  goal: all_enabled_checks
+  included_cups: all
+  starting_cup_unlocks: none
+  placement_checks: true
+  milestone_checks: true
+  milestone_max_tier: gold
+  captain_win_checks: true
+  stadium_win_checks: true
+  combo_checks: all
+  character_unlock_checks: true
+  enable_traps: false
+  death_link: false

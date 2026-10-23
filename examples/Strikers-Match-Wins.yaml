@@ -1,0 +1,16 @@
+name: Strikers{number}
+game: Super Mario Strikers
+description: Win ten cup or Grudge matches while the client is running.
+Super Mario Strikers:
+  goal: match_wins
+  required_match_wins: 10
+  included_cups: [Mushroom Cup]
+  starting_cup_unlocks: none
+  placement_checks: true
+  milestone_checks: false
+  captain_win_checks: true
+  stadium_win_checks: false
+  combo_checks: off
+  character_unlock_checks: false
+  enable_traps: false
+  death_link: false

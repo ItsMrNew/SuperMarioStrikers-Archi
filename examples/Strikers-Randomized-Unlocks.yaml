@@ -1,0 +1,21 @@
+name: Strikers{number}
+game: Super Mario Strikers
+description: Find captain, sidekick and cup unlocks on the way to four cup trophies.
+Super Mario Strikers:
+  randomize_captains: true
+  randomize_sidekicks: true
+  randomize_cups: true
+  starting_captains: [Mario, Luigi]
+  starting_sidekicks: [Toad]
+  starting_cups: [Mushroom Cup]
+  # regular/super/all would additionally start with those entire cup groups.
+  starting_cup_unlocks: none
+  goal: battle_trophies
+  required_battle_trophies: 4
+  included_cups: all
+  cup_match_checks: true
+  cup_win_bonus_count: 1
+  placement_checks: true
+  milestone_max_tier: bronze
+  milestone_requirement_percent: 50
+  combo_checks: themed

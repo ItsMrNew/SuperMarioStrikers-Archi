@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+test-results/
+
+# Local environments and settings.
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Release archives are uploaded separately as GitHub release assets.
+/Super-Mario-Strikers-Archipelago-Mod*.zip
+*.before-*

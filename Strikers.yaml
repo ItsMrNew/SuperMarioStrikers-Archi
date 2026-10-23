@@ -1,0 +1,46 @@
+name: Strikers{number}
+game: Super Mario Strikers
+description: Eight-cup trophy hunt with themed combination checks.
+Super Mario Strikers:
+  # battle_trophies, selected_cups, match_wins, or all_enabled_checks
+  goal: battle_trophies
+  required_battle_trophies: 8
+  required_cups: [Super Bowser Cup]
+  required_match_wins: 25
+  # all, or a list such as [Mushroom Cup, Flower Cup]
+  included_cups: all
+  # Independent of the goal and included cups: none, regular, super, all
+  starting_cup_unlocks: none
+  # Optional AP progression. Off preserves the original roster/cup behaviour.
+  randomize_captains: false
+  randomize_sidekicks: false
+  randomize_cups: false
+  # Used by the corresponding randomisation option.
+  starting_captains: [Mario, Luigi]
+  starting_sidekicks: [Toad]
+  starting_cups: [Mushroom Cup]
+  cup_match_checks: true
+  cup_win_bonus_count: 5
+  milestone_max_tier: gold
+  # AP check targets only; native medal requirements remain unchanged.
+  milestone_requirement_percent: 100
+  placement_checks: true
+  milestone_checks: true
+  captain_win_checks: true
+  stadium_win_checks: true
+  included_captains: all
+  included_stadiums: all
+  combo_checks: themed
+  # Used with combo_checks: custom; use exact challenge names.
+  custom_sidekick_combos: []
+  custom_stadium_combos: []
+  character_unlock_checks: false
+  enable_traps: false
+  trap_weight: 50
+  # Allowed cheat items; [] removes them from the pool.
+  cheat_unlocks: all
+  # Helpful filler that is a boost; remainder is Nothing.
+  powerup_weight: 100
+  # Share of helpful boosts that contain two power-ups.
+  double_powerup_weight: 50
+  death_link: false

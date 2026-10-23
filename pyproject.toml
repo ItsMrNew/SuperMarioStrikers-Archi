@@ -1,0 +1,13 @@
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+extend-exclude = ["test-results"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]
+
+[tool.ruff.lint.per-file-ignores]
+# Bootstrap AP's source path and disable its interactive updater before imports.
+"tests/__init__.py" = ["E402", "F401"]
+# Register the test world's data package and stub Dolphin before importing Client.
+"tests/test_expansion.py" = ["E402"]
